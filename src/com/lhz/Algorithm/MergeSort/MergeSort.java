@@ -10,6 +10,7 @@ import java.util.Arrays;
  * @version 1.0
  * @date 2020/6/19 0:09
  * 归并排序，第一个学习的NlogN级别的排序算法
+ * 自顶向下的递归方法
  */
 public class MergeSort {
     public static void main(String[] args) {
