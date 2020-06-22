@@ -6,7 +6,7 @@ import com.lhz.Algorithm.SortTestHelper;
  * @author lhz
  * @version 1.0
  * @date 2020/6/19 23:52
- * 快速排序
+ * 快速排序，此方法有缺陷
  */
 public class QuickSort {
     public static void main(String[] args) {
