@@ -24,6 +24,17 @@ public class SortTestHelper {
         return arr;
     }
 
+    //随机生成数组2
+    public static int[] generateRandomArray02(int n, int rangeL, int rangeR) {
+        assert rangeL <= rangeR;
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            //生成一个rangeL到rangeR的随机数
+            arr[i] = (int) (Math.random() * (rangeR - rangeL + 1) + rangeL);
+        }
+        return arr;
+    }
+
     public static void printArr(Integer[] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
@@ -57,7 +68,7 @@ public class SortTestHelper {
             Object[] params = new Object[]{arr};
 
             long startTime = System.currentTimeMillis();
-            // 调用排序函数
+            // 调用排序函数,前面的参数代表实例对象，后面的参数是方法需要用到的参数
             sortMethod.invoke(null, params);
             long endTime = System.currentTimeMillis();
 

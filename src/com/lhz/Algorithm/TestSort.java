@@ -13,12 +13,14 @@ public class TestSort {
     public static void main(String[] args) {
 
         //测试选择排序和插入排序性能，一般情况下选择排序比插入要好一点，但是在近乎有序的情况下，插入排序效率是极高的
-        int N = 100000;
-        Integer[] arr1 = SortTestHelper.generateNearlyOrderArray(N, 1);
-//        Integer [] arr1 = SortTestHelper.generateRandomArray(N,1,10);
+        int N = 1000000;
+//        Integer[] arr1 = SortTestHelper.generateNearlyOrderArray(N, 1);
+        Integer [] arr1 = SortTestHelper.generateRandomArray(N,1,1000000);
 //        //复制arr1数组
         Integer[] arr2 = Arrays.copyOf(arr1,arr1.length);
+        Integer[] arr3 = Arrays.copyOf(arr1,arr1.length);
         SortTestHelper.testSort("com.lhz.Algorithm.MergeSort.MergeSortAdvance",arr1);
         SortTestHelper.testSort("com.lhz.Algorithm.QuickSort.QuickSort",arr2);
+        SortTestHelper.testSort("com.lhz.Algorithm.HeapSort.MaxHeap",arr3);
     }
 }
