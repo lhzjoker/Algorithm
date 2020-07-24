@@ -30,10 +30,10 @@ public class ThreeWayQuickSort {
     }
 
     private static void sort(Comparable[] arr, int l, int r) {
-        if (r - l <= 15) {
-            InsertionSort.sort(arr, l, r);
-            return;
-        }
+//        if (r - l <= 15) {
+//            InsertionSort.sort(arr, l, r);
+//            return;
+//        }
 
         SortTestHelper.swap(arr, l, (int) (Math.random() * (r - l + 1)) + l);
         Comparable e = arr[l];
