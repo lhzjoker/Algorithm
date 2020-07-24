@@ -28,7 +28,7 @@ public class MergeSortAdvance {
     }
 
     private static void sort(Comparable[] arr, int l, int r) {
-        //当数量较小的时候使用选择排序
+        //当数量较小的时候使用插入排序
         if (r - l <= 15) {
             InsertionSort.sort(arr, l, r);
             return;
