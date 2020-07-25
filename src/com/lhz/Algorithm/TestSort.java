@@ -19,8 +19,8 @@ public class TestSort {
 //        //复制arr1数组
         Integer[] arr2 = Arrays.copyOf(arr1,arr1.length);
         Integer[] arr3 = Arrays.copyOf(arr1,arr1.length);
-        SortTestHelper.testSort("com.lhz.Algorithm.MergeSort.MergeSortAdvance",arr1);
-        SortTestHelper.testSort("com.lhz.Algorithm.QuickSort.QuickSort",arr2);
-        SortTestHelper.testSort("com.lhz.Algorithm.HeapSort.MaxHeap",arr3);
+        SortTestHelper.testSort("com.lhz.Algorithm.Sort.MergeSort.MergeSortAdvance",arr1);
+        SortTestHelper.testSort("com.lhz.Algorithm.Sort.QuickSort.QuickSort",arr2);
+        SortTestHelper.testSort("com.lhz.Algorithm.Sort.HeapSort.MaxHeap",arr3);
     }
 }
