@@ -1,4 +1,4 @@
-package com.lhz.Algorithm.QuickSort;
+package com.lhz.Algorithm.Sort.QuickSort;
 
 import com.lhz.Algorithm.SortTestHelper;
 
@@ -11,7 +11,7 @@ import com.lhz.Algorithm.SortTestHelper;
 public class QuickSort {
     public static void main(String[] args) {
         Integer[] arr = SortTestHelper.generateRandomArray(1000000, 1, 10000000);
-        SortTestHelper.testSort("com.lhz.Algorithm.QuickSort.QuickSort",arr);
+        SortTestHelper.testSort("com.lhz.Algorithm.Sort.QuickSort.QuickSort",arr);
 //        sort(arr);
 //        SortTestHelper.printArr(arr);
     }

@@ -1,4 +1,4 @@
-package com.lhz.Algorithm.BubbleSort;
+package com.lhz.Algorithm.Sort.BubbleSort;
 
 import com.lhz.Algorithm.SortTestHelper;
 
@@ -13,7 +13,7 @@ public class BubbleSort {
         Integer[] arr = SortTestHelper.generateRandomArray(10, 1, 100);
         BubbleSort.sort(arr);
         SortTestHelper.printArr(arr);
-//        SortTestHelper.testSort("com.lhz.Algorithm.BubbleSort.BubbleSort",arr);
+//        SortTestHelper.testSort("com.lhz.Algorithm.Sort.BubbleSort.BubbleSort",arr);
     }
 
     public static void sort(Comparable[] arr) {

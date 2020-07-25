@@ -1,6 +1,5 @@
-package com.lhz.Algorithm.QuickSort;
+package com.lhz.Algorithm.Sort.QuickSort;
 
-import com.lhz.Algorithm.InsertionSort.InsertionSort;
 import com.lhz.Algorithm.SortTestHelper;
 
 import java.util.Arrays;
@@ -17,8 +16,8 @@ public class ThreeWayQuickSort {
         int N = 1000000;
         Integer[] arr = SortTestHelper.generateRandomArray(N, 1, 10);
         Integer[] arr1 = Arrays.copyOf(arr, arr.length);
-        SortTestHelper.testSort("com.lhz.Algorithm.QuickSort.TwoWayQuickSort",arr);
-        SortTestHelper.testSort("com.lhz.Algorithm.QuickSort.ThreeWayQuickSort",arr1);
+        SortTestHelper.testSort("com.lhz.Algorithm.Sort.QuickSort.TwoWayQuickSort",arr);
+        SortTestHelper.testSort("com.lhz.Algorithm.Sort.QuickSort.ThreeWayQuickSort",arr1);
 //        Integer[] arr = SortTestHelper.generateRandomArray(30, 1, 100);
 //        sort(arr);
 //        SortTestHelper.printArr(arr);

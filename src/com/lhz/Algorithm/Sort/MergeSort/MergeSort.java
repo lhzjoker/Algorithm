@@ -1,7 +1,6 @@
-package com.lhz.Algorithm.MergeSort;
+package com.lhz.Algorithm.Sort.MergeSort;
 
 import com.lhz.Algorithm.SortTestHelper;
-import com.sun.javaws.Main;
 
 import java.util.Arrays;
 
@@ -20,8 +19,8 @@ public class MergeSort {
         Integer[] arr1 = Arrays.copyOf(arr, arr.length);
 //        sort(arr);
 //        SortTestHelper.printArr(arr);
-        SortTestHelper.testSort("com.lhz.Algorithm.MergeSort.MergeSort",arr);
-        SortTestHelper.testSort("com.lhz.Algorithm.InsertionSort.InsertionSort",arr1);
+        SortTestHelper.testSort("com.lhz.Algorithm.Sort.MergeSort.MergeSort",arr);
+        SortTestHelper.testSort("com.lhz.Algorithm.Sort.InsertionSort.InsertionSort",arr1);
     }
 
     public static void sort(Comparable[] arr) {

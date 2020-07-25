@@ -1,4 +1,4 @@
-package com.lhz.Algorithm.InsertionSort;
+package com.lhz.Algorithm.Sort.InsertionSort;
 
 import com.lhz.Algorithm.SortTestHelper;
 
@@ -12,7 +12,7 @@ import com.lhz.Algorithm.SortTestHelper;
 public class InsertionSort {
     public static void main(String[] args) {
         Integer[] arr = SortTestHelper.generateRandomArray(10, 1, 100);
-//        SortTestHelper.testSort("com.lhz.Algorithm.InsertionSort.InsertionSort",arr);
+//        SortTestHelper.testSort("com.lhz.Algorithm.Sort.InsertionSort.InsertionSort",arr);
         sort(arr);
         SortTestHelper.printArr(arr);
     }

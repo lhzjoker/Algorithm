@@ -1,4 +1,4 @@
-package com.lhz.Algorithm.ShellSort;
+package com.lhz.Algorithm.Sort.ShellSort;
 
 import com.lhz.Algorithm.SortTestHelper;
 
@@ -14,9 +14,9 @@ public class ShellSort {
     public static void main(String[] args) {
         Integer[] arr = SortTestHelper.generateRandomArray(1000000, 1, 10000000);
         Integer[] arr1 = Arrays.copyOf(arr, arr.length);
-//        SortTestHelper.testSort("com.lhz.Algorithm.InsertionSort.InsertionSort",arr);
-        SortTestHelper.testSort("com.lhz.Algorithm.MergeSort.MergeSortAdvance",arr);
-        SortTestHelper.testSort("com.lhz.Algorithm.ShellSort.ShellSort",arr1);
+//        SortTestHelper.testSort("com.lhz.Algorithm.Sort.InsertionSort.InsertionSort",arr);
+        SortTestHelper.testSort("com.lhz.Algorithm.Sort.MergeSort.MergeSortAdvance",arr);
+        SortTestHelper.testSort("com.lhz.Algorithm.Sort.ShellSort.ShellSort",arr1);
 //        sort(arr);
 //        SortTestHelper.printArr(arr);
     }

@@ -1,12 +1,10 @@
-package com.lhz.Algorithm.SelectionSort;
+package com.lhz.Algorithm.Sort.SelectionSort;
 
 /**
  * 简单的选择排序算法
  */
 
 import com.lhz.Algorithm.Student;
-
-import java.util.*;
 
 public class SelectionSort {
 

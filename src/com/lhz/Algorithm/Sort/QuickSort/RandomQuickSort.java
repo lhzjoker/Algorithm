@@ -1,6 +1,6 @@
-package com.lhz.Algorithm.QuickSort;
+package com.lhz.Algorithm.Sort.QuickSort;
 
-import com.lhz.Algorithm.InsertionSort.InsertionSort;
+import com.lhz.Algorithm.Sort.InsertionSort.InsertionSort;
 import com.lhz.Algorithm.SortTestHelper;
 
 /**
@@ -16,7 +16,7 @@ public class RandomQuickSort {
     public static void main(String[] args) {
 //        Integer[] arr = SortTestHelper.generateRandomArray(1000000, 1, 10000000);
         Integer[] arr = SortTestHelper.generateNearlyOrderArray(1000000, 100);
-        SortTestHelper.testSort("com.lhz.Algorithm.QuickSort.RandomQuickSort", arr);
+        SortTestHelper.testSort("com.lhz.Algorithm.Sort.QuickSort.RandomQuickSort", arr);
 //        sort(arr);
 //        SortTestHelper.printArr(arr);
     }

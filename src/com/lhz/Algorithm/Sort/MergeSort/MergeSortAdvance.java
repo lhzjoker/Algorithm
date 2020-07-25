@@ -1,6 +1,6 @@
-package com.lhz.Algorithm.MergeSort;
+package com.lhz.Algorithm.Sort.MergeSort;
 
-import com.lhz.Algorithm.InsertionSort.InsertionSort;
+import com.lhz.Algorithm.Sort.InsertionSort.InsertionSort;
 import com.lhz.Algorithm.SortTestHelper;
 
 import java.util.Arrays;
@@ -19,8 +19,8 @@ public class MergeSortAdvance {
         SortTestHelper.printArr(arr);
         //测试改进算法的性能
 //                Integer[] arr1 = Arrays.copyOf(arr, arr.length);
-//        SortTestHelper.testSort("com.lhz.Algorithm.MergeSort.MergeSort",arr);
-//        SortTestHelper.testSort("com.lhz.Algorithm.MergeSort.MergeSortAdvance",arr1);
+//        SortTestHelper.testSort("com.lhz.Algorithm.Sort.MergeSort.MergeSort",arr);
+//        SortTestHelper.testSort("com.lhz.Algorithm.Sort.MergeSort.MergeSortAdvance",arr1);
     }
 
     public static void sort(Comparable[] arr) {

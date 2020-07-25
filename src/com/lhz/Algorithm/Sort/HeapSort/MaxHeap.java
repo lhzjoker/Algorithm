@@ -1,4 +1,4 @@
-package com.lhz.Algorithm.HeapSort;
+package com.lhz.Algorithm.Sort.HeapSort;
 
 /**
  * @author lhz
@@ -8,7 +8,6 @@ package com.lhz.Algorithm.HeapSort;
  */
 
 import java.lang.*;
-import java.util.Date;
 
 // 在堆的有关操作中，需要比较堆中元素的大小，所以Item需要extends Comparable
 public class MaxHeap<Item extends Comparable> {

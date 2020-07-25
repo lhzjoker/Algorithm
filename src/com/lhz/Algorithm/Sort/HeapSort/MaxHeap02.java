@@ -1,4 +1,4 @@
-package com.lhz.Algorithm.HeapSort;
+package com.lhz.Algorithm.Sort.HeapSort;
 
 import com.lhz.Algorithm.SortTestHelper;
 

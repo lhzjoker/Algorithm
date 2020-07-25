@@ -1,8 +1,7 @@
-package com.lhz.Algorithm.QuickSort;
+package com.lhz.Algorithm.Sort.QuickSort;
 
-import com.lhz.Algorithm.InsertionSort.InsertionSort;
+import com.lhz.Algorithm.Sort.InsertionSort.InsertionSort;
 import com.lhz.Algorithm.SortTestHelper;
-import jdk.nashorn.internal.ir.WhileNode;
 
 import java.util.Arrays;
 
@@ -17,8 +16,8 @@ public class TwoWayQuickSort {
         int N = 100000;
         Integer[] arr = SortTestHelper.generateRandomArray(N, 1, 10);
         Integer[] arr1 = Arrays.copyOf(arr, arr.length);
-        SortTestHelper.testSort("com.lhz.Algorithm.QuickSort.TwoWayQuickSort",arr);
-        SortTestHelper.testSort("com.lhz.Algorithm.QuickSort.RandomQuickSort",arr1);
+        SortTestHelper.testSort("com.lhz.Algorithm.Sort.QuickSort.TwoWayQuickSort",arr);
+        SortTestHelper.testSort("com.lhz.Algorithm.Sort.QuickSort.RandomQuickSort",arr1);
 //        sort(arr);
 //        SortTestHelper.printArr(arr);
     }
