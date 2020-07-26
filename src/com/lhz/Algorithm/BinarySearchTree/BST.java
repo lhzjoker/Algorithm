@@ -1,11 +1,8 @@
 package com.lhz.Algorithm.BinarySearchTree;
 
-import javax.sound.midi.Soundbank;
-import java.nio.file.NotDirectoryException;
-import java.text.Normalizer;
+
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
  * @author lhz
